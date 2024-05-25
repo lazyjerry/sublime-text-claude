@@ -1,0 +1,59 @@
+[
+  {
+    "id":"tools",
+    "children":[
+      {
+        "id":"claude",
+        "caption":"☁️ Claude",
+        "command":"claude",
+      }
+    ]
+  },
+  {
+    "id": "preferences",
+    "children":[
+      {
+        "id":"package-settings",
+        "children":[
+          {
+            "caption":"☁️ Claude",
+            "children":[
+            {
+                "caption": "Settings - Default",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/claude/claude.sublime-settings"
+                }
+            },
+            {
+                "caption": "Settings - User",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/User/claude.sublime-settings"
+                }
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "caption": "Key Bindings - Default",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/claude/Default.sublime-keymap"
+                }
+            },
+            {
+                "caption": "Key Bindings - User",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/User/claude.sublime-keymap"
+                }
+            },
+          ]
+          }
+        ]
+        
+      }
+    ]
+  }
+]
